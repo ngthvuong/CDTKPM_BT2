@@ -9,7 +9,6 @@ const index = async (req, res) => {
 			receiptAccounts,
 			title: 'Quản lý tài khoản thu'
 		});
-		res.send(JSON.stringify(accounts));
 	} catch (error) {
 		console.error('Error receiptAccountController:', error);
 	}

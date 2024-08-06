@@ -1,0 +1,44 @@
+<section id="analysis_container">
+    <div class="expense_box">
+        <h4>Các Khoản Chi</h4>
+        <ul class="flow_rows">
+            {{#each analysisInfo.expenseFlows}}
+            <li class="flow_row {{colorClass @index}}">
+                <span class="text_center">{{incrementedIndex @index}}</span>
+                <span>{{note}}</span>
+                <span class="text_center">{{dateFormat time}}</span>
+                <span class="text_right">{{formatAmount amount}}</span>
+            </li>
+            {{/each}}
+        </ul>
+    </div>
+    <div class="receipt_box">
+        <h4>Các Khoản Thu</h4>
+        <ul class="flow_rows">
+            {{#each analysisInfo.receiptFlows}}
+            <li class="flow_row {{colorClass @index}}">
+                <span class="text_center">{{incrementedIndex @index}}</span>
+                <span>{{note}}</span>
+                <span class="text_center">{{dateFormat time}}</span>
+                <span class="text_right">{{formatAmount amount}}</span>
+            </li>
+            {{/each}}
+        </ul>
+
+    </div>
+    <div class="analysis_box">
+        <div class="analysis_row">
+            <b>Tổng Chi</b>
+            <b class="text_right">{{formatAmount analysisInfo.totalExpenseAmount}}</b>
+        </div>
+        <div class="analysis_row">
+            <b>Tổng Thu</b>
+            <b class="text_right">{{formatAmount analysisInfo.totalReceiptAmount}}</b>
+        </div>
+        <div class="analysis_row">
+            <b>Tổng Cân Đối Thu Chi</b>
+            <b class="text_right">{{formatAmount analysisInfo.totalAmount}}</b>
+        </div>
+
+    </div>
+</section>

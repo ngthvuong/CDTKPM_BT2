@@ -102,3 +102,51 @@ td {
 table td.table_commands {
     width: 150px;
 }
+
+#analysis_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+}
+
+#analysis_container>div {
+    padding: 10px;
+    border: 1px solid #2dcece;
+    border-radius: 10px;
+}
+
+.expense_box,
+.receipt_box {
+    background-color: #2dcece;
+}
+
+.flow_row {
+    display: grid;
+    grid-template-columns: 1fr 5fr 4fr 2fr;
+    padding: 5px;
+}
+
+.odd_color {
+    background-color: #d3efef;
+}
+
+.even_color {
+    background-color: #fff5ec;
+}
+
+.text_right {
+    text-align: right;
+}
+
+.text_center {
+    text-align: center;
+}
+
+.analysis_box {
+    grid-column: 1/3;
+}
+
+.analysis_row {
+    display: grid;
+    grid-template-columns: 9fr 1fr;
+}

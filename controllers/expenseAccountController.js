@@ -9,7 +9,6 @@ const index = async (req, res) => {
 			expenseAccounts,
 			title: 'Quản lý tài khoản chi'
 		});
-		res.send(JSON.stringify(accounts));
 	} catch (error) {
 		console.error('expenseAccountController:', error);
 	}
