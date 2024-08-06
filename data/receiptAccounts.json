@@ -1,0 +1,27 @@
+[
+    {
+        "code": 1,
+        "name": "Doanh Thu Từ Lương",
+        "description": "Thu nhập từ lương và các khoản thanh toán cá nhân"
+    },
+    {
+        "code": 2,
+        "name": "Doanh Thu Từ Tiền Thưởng",
+        "description": "Thu nhập từ tiền thưởng và các khoản khuyến khích"
+    },
+    {
+        "code": 3,
+        "name": "Thu Nhập Từ Đầu Tư Cá Nhân",
+        "description": "Lợi nhuận từ các khoản đầu tư cá nhân"
+    },
+    {
+        "code": 4,
+        "name": "Thu Nhập Từ Kinh Doanh",
+        "description": "Doanh thu từ các hoạt động kinh doanh cá nhân"
+    },
+    {
+        "code": 5,
+        "name": "Doanh Thu Từ Cho Thuê Tài Sản",
+        "description": "Doanh thu từ việc cho thuê tài sản cá nhân"
+    }
+]

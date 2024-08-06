@@ -1,0 +1,17 @@
+<table class="table">
+    <tr>
+        <th>Mã</th>
+        <th>Tên Khoản Mục</th>
+        <th>Lệnh</th>
+    </tr>
+    {{#each receiptAccounts}}
+    <tr>
+        <td>{{code}}</td>
+        <td>{{name}}</td>
+        <td class="table_commands">
+            <button>Sửa</button>
+            <button>Xóa</button>
+        </td>
+    </tr>
+    {{/each}}
+</table>

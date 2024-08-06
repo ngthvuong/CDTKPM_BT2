@@ -1,0 +1,27 @@
+[
+    {
+        "code": 1,
+        "name": "Chi Phí Sinh Hoạt",
+        "description": "Chi phí cho các hoạt động sinh hoạt hàng ngày"
+    },
+    {
+        "code": 2,
+        "name": "Chi Phí Thuê Nhà",
+        "description": "Chi phí cho việc thuê nhà hoặc văn phòng"
+    },
+    {
+        "code": 3,
+        "name": "Chi Phí Đi Lại",
+        "description": "Chi phí cho các khoản di chuyển và đi lại"
+    },
+    {
+        "code": 4,
+        "name": "Chi Phí Đầu Tư",
+        "description": "Chi phí liên quan đến các khoản đầu tư và mua sắm tài sản"
+    },
+    {
+        "code": 5,
+        "name": "Chi Phí Học Tập",
+        "description": "Chi phí cho việc học tập và đào tạo"
+    }
+]
